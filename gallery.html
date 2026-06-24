@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+
+    <h1>IMAGE GALLERY</h1>
+
+    <a href="index.html" class="back-btn">
+        Home
+    </a>
+
+</header>
+
+<div class="filter-buttons">
+
+    <button class="active" data-filter="all">All</button>
+    <button data-filter="color">Color</button>
+    <button data-filter="bw">Black & White</button>
+    <button data-filter="architecture">Architecture</button>
+    <button data-filter="abstract">Abstract</button>
+
+</div>
+
+<div class="gallery">
+
+    <!-- COLOR -->
+
+    <div class="image color">
+        <img src="https://picsum.photos/id/1015/600/400">
+    </div>
+
+    <div class="image color">
+        <img src="https://picsum.photos/id/1025/600/400">
+    </div>
+
+    <div class="image color">
+        <img src="https://picsum.photos/id/1035/600/400">
+    </div>
+
+    <div class="image color">
+        <img src="https://picsum.photos/id/1045/600/400">
+    </div>
+
+    <!-- BLACK & WHITE -->
+
+    <div class="image bw">
+        <img src="https://picsum.photos/id/1055/600/400">
+    </div>
+
+    <div class="image bw">
+        <img src="https://picsum.photos/id/1065/600/400">
+    </div>
+
+    <div class="image bw">
+        <img src="https://picsum.photos/id/1075/600/400">
+    </div>
+
+    <div class="image bw">
+        <img src="https://picsum.photos/id/1084/600/400">
+    </div>
+
+    <!-- ARCHITECTURE -->
+
+    <div class="image architecture">
+        <img src="https://picsum.photos/id/1008/600/400">
+    </div>
+
+    <div class="image architecture">
+        <img src="https://picsum.photos/id/1011/600/400">
+    </div>
+
+    <div class="image architecture">
+        <img src="https://picsum.photos/id/1020/600/400">
+    </div>
+
+    <div class="image architecture">
+        <img src="https://picsum.photos/id/1031/600/400">
+    </div>
+
+    <!-- ABSTRACT -->
+
+    <div class="image abstract">
+        <img src="https://picsum.photos/id/1040/600/400">
+    </div>
+
+    <div class="image abstract">
+        <img src="https://picsum.photos/id/1050/600/400">
+    </div>
+
+    <div class="image abstract">
+        <img src="https://picsum.photos/id/1060/600/400">
+    </div>
+
+    <div class="image abstract">
+        <img src="https://picsum.photos/id/1070/600/400">
+    </div>
+
+</div>
+
+<!-- LIGHTBOX -->
+
+<div class="lightbox">
+
+    <span class="close-btn">&times;</span>
+
+    <button class="prev">&#10094;</button>
+
+    <img class="lightbox-img">
+
+    <button class="next">&#10095;</button>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
